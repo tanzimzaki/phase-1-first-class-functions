@@ -1,9 +1,7 @@
-const response = [Melissa, Aron, Laura, Krity];
-
-const spy = (callback) => {
-    
-    callback(response);
+function receivesAFunction(calledFunction) {
+    calledFunction();
 }
 
-// basic callback functions by passing parameters using arrow functions - the module doesn not cover DOM (explained in later modules)
-// I beleive the functions module should have been covered once DOM module is completed 
+function returnsANamedFunction() {
+    return AaronsFunction = () => 1 + 1;
+}
